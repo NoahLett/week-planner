@@ -2,6 +2,23 @@ body {
   font-family: Ubuntu, sans-serif;
 }
 
+.add-window-entry {
+  box-shadow: 0 0 1400px 1400px rgb(0 0 0 / 75%);
+  background-color: white;
+  position: fixed;
+  margin: auto;
+  top: 0;
+  left: 50px;
+  bottom: 200px;
+  right: 50px;
+  width: 500px;
+  height: 250px;
+}
+
+.hidden {
+  display: none;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -43,11 +60,6 @@ body {
   width: 130px;
   height: 30px;
   background-color: white;
-}
-
-.day-button:hover {
-  background-color: rgba(128, 128, 128, 0.406);
-  cursor: pointer;
 }
 
 .add-button:hover {

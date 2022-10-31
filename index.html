@@ -12,102 +12,137 @@
 </head>
 <body>
   <!-- <button class="modal">Open Modal</button> -->
-  <main class="add-window-entry hidden">
-    <div>
+  <main>
+    <div class="add-window-entry hidden">
       <form>
         <h1>Add Entry</h1>
-        <select>
-          <option value="select a day of the week" selected="selected">Day of Week</option>
-          <option value="select a day of the week">Sunday</option>
-          <option value="select a day of the week">Monday</option>
-          <option value="select a day of the week">Tuesday</option>
-          <option value="select a day of the week">Wednesday</option>
-          <option value="select a day of the week">Thursday</option>
-          <option value="select a day of the week">Friday</option>
-          <option value="select a day of the week">Saturday</option>
-        </select>
-        <select>
-
-        </select>
-        <button class="modal-off">Sumbit</button>
+        <div>
+          <select>
+            <option selected disabled>Day of Week</option>
+            <option value="Sunday">Sunday</option>
+            <option value="Monday">Monday</option>
+            <option value="Tuesday">Tuesday</option>
+            <option value="Wednesday">Wednesday</option>
+            <option value="Thursday">Thursday</option>
+            <option value="Friday">Friday</option>
+            <option value="Saturday">Saturday</option>
+          </select>
+          <select>
+            <option selected disabled>Time</option>
+            <option value="00:00">00:00</option>
+            <option value="1:00">1:00</option>
+            <option value="2:00">2:00</option>
+            <option value="3:00">3:00</option>
+            <option value="4:00">4:00</option>
+            <option value="5:00">5:00</option>
+            <option value="6:00">6:00</option>
+            <option value="7:00">7:00</option>
+            <option value="8:00">8:00</option>
+            <option value="9:00">9:00</option>
+            <option value="10:00">10:00</option>
+            <option value="11:00">11:00</option>
+            <option value="12:00">12:00</option>
+            <option value="13:00">13:00</option>
+            <option value="14:00">14:00</option>
+            <option value="15:00">15:00</option>
+            <option value="16:00">16:00</option>
+            <option value="17:00">17:00</option>
+            <option value="18:00">18:00</option>
+            <option value="19:00">19:00</option>
+            <option value="20:00">20:00</option>
+            <option value="21:00">21:00</option>
+            <option value="22:00">22:00</option>
+            <option value="23:00">23:00</option>
+            <option value="24:00">24:00</option>
+          </select>
+        </div>
+        <div>
+          <textarea name="description" placeholder="Description"></textarea>
+        </div>
+        <div>
+          <button class="modal-off">Sumbit</button>
+        </div>
       </form>
     </div>
+    <div class="container">
+
+      <div class="row">
+        <div class="column-full">
+          <h1>Weekly Planner</h1>
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="column-one-seventh">
+          <button class="days-button">Sunday</button>
+        </div>
+        <div class="column-one-seventh">
+          <button class="days-button">Monday</button>
+        </div>
+        <div class="column-one-seventh">
+          <button class="days-button">Tuesday</button>
+        </div>
+        <div class="column-one-seventh">
+          <button class="days-button">Wednesday</button>
+        </div>
+        <div class="column-one-seventh">
+          <button class="days-button">Thursday</button>
+        </div>
+        <div class="column-one-seventh">
+          <button class="days-button">Friday</button>
+        </div>
+        <div class="column-one-seventh">
+          <button class="days-button">Saturday</button>
+        </div>
+      </div>
+
+
+
+      <div class="row">
+        <div class="column-full">
+          <button class="add-button modal">Add Entry</button>
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="column-full">
+          <h2>Scheduled Events for Monday</h2>
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="column-full">
+          <table>
+            <thead>
+              <tr>
+                <th class="border-line">Time</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="border-line">10:00</td>
+                <td>Practice algorithms</td>
+              </tr>
+              <tr>
+                <td class="border-line">12:00</td>
+                <td>Go for a run</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+
+    </div>
+
+
   </main>
 
-  <div class="container">
 
-    <div class="row">
-      <div class="column-full">
-        <h1>Weekly Planner</h1>
-      </div>
-    </div>
-
-
-    <div class="row">
-      <div class="column-one-seventh">
-        <button class="days-button">Sunday</button>
-      </div>
-      <div class="column-one-seventh">
-        <button class="days-button">Monday</button>
-      </div>
-      <div class="column-one-seventh">
-        <button class="days-button">Tuesday</button>
-      </div>
-      <div class="column-one-seventh">
-        <button class="days-button">Wednesday</button>
-      </div>
-      <div class="column-one-seventh">
-        <button class="days-button">Thursday</button>
-      </div>
-      <div class="column-one-seventh">
-        <button class="days-button">Friday</button>
-      </div>
-      <div class="column-one-seventh">
-        <button class="days-button">Saturday</button>
-      </div>
-    </div>
-
-
-
-    <div class="row">
-      <div class="column-full">
-        <button class="add-button modal">Add Entry</button>
-      </div>
-    </div>
-
-
-    <div class="row">
-      <div class="column-full">
-        <h2>Scheduled Events for Monday</h2>
-      </div>
-    </div>
-
-
-    <div class="row">
-      <div class="column-full">
-        <table>
-          <thead>
-            <tr>
-              <th class="border-line">Time</th>
-              <th>Description</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td class="border-line">10:00</td>
-              <td>Practice algorithms</td>
-            </tr>
-            <tr>
-              <td class="border-line">12:00</td>
-              <td>Go for a run</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-
-
-  </div>
   <script src="main.js"></script>
 </body>
 </html>
