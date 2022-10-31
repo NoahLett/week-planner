@@ -1,5 +1,5 @@
 body {
-  font-family: sans-serif;
+  font-family: Ubuntu, sans-serif;
 }
 
 .container {
@@ -14,15 +14,27 @@ body {
 
 .column-full {
   flex-basis: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .column-one-seventh {
+  display: flex;
   flex-basis: calc(100% / 7);
+  justify-content: center;
 }
 
 .days-button {
+  text-align: center;
+  width: 100px;
+  height: 100px;
 }
 
 .add-button {
+  text-align: center;
+  margin-top: 2rem;
+}
 
+h1 {
+  text-align: center;
 }
