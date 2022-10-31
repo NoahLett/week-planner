@@ -1,9 +1,9 @@
 
-var $modal = document.querySelector('.modal');
+var $addButton = document.querySelector('.add-button');
 var $addWindowEntry = document.querySelector('.add-window-entry');
 // var $modalOff = document.querySelector('.modal-off');
 
-$modal.addEventListener('click', modalOn);
+$addButton.addEventListener('click', modalOn);
 
 function modalOn(event) {
   $addWindowEntry.className = 'add-window-entry';
