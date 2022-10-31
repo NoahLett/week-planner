@@ -56,4 +56,24 @@ h1 {
 
 thead > tr {
   background-color: rgba(128, 128, 128, 0.565);
+  text-align: left;
+}
+
+tbody > tr:nth-child(odd) {
+  background-color: lightgray;
+}
+
+table {
+  border: 1px solid black;
+  border-spacing: 0;
+  width: 90%;
+  font-size: 12px;
+}
+
+.border-line {
+  border-right: 1px solid black;
+}
+
+td {
+  padding: 5px 0;
 }
