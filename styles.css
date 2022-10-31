@@ -45,8 +45,13 @@ body {
   background-color: white;
 }
 
-button:hover {
+.day-button:hover {
   background-color: rgba(128, 128, 128, 0.406);
+  cursor: pointer;
+}
+
+.add-button:hover {
+  background-color: #95bcf2;
   cursor: pointer;
 }
 
@@ -76,4 +81,23 @@ table {
 
 td {
   padding: 5px 0;
+}
+
+.modal {
+  background-color: #4a73dbfc;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 25px;
+  margin: 10px;
+}
+
+.modal-off {
+  background-color: #ff6e6e;
+  color: white;
+  border: none;
+  flex-basis: center;
+  border-radius: 3px;
+  padding: 10px 25px;
+  margin: 10px;
 }
