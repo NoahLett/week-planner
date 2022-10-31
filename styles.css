@@ -6,7 +6,7 @@ body {
   box-shadow: 0 0 1400px 1400px rgb(0 0 0 / 75%);
   background-color: white;
   position: fixed;
-  margin: auto;
+  margin: 120px auto;
   top: 0;
   left: 50px;
   bottom: 200px;
@@ -96,20 +96,38 @@ td {
 }
 
 .modal {
-  background-color: #4a73dbfc;
-  color: white;
-  border: none;
-  border-radius: 3px;
-  padding: 10px 25px;
-  margin: 10px;
+  color: black;
+  margin: 100px;
 }
 
 .modal-off {
-  background-color: #ff6e6e;
-  color: white;
-  border: none;
-  flex-basis: center;
-  border-radius: 3px;
-  padding: 10px 25px;
-  margin: 10px;
+  background-color: white;
+  color: black;
+  padding: 5px;
+  border: 3px solid black;
+  border-style: inset;
+  position: absolute;
+  right: 2rem;
+  bottom: 1rem;
+}
+
+.select-day {
+  position: absolute;
+  left: 2rem;
+  border-width: 3px;
+}
+
+.select-time {
+  position: absolute;
+  left: 10rem;
+  border-width: 3px;
+}
+
+.description {
+  position: absolute;
+  left: 2rem;
+  top: 7rem;
+  width: 430px;
+  height: 70px;
+  border-width: 3px;
 }
