@@ -28,13 +28,32 @@ body {
   text-align: center;
   width: 100px;
   height: 100px;
+  background-color: white;
+}
+
+.days-button:hover {
+  background-color: rgba(128, 128, 128, 0.406);
+  cursor: pointer;
 }
 
 .add-button {
   text-align: center;
   margin-top: 2rem;
+  border-style: outset;
+  width: 130px;
+  height: 30px;
+  background-color: white;
+}
+
+button:hover {
+  background-color: rgba(128, 128, 128, 0.406);
+  cursor: pointer;
 }
 
 h1 {
   text-align: center;
+}
+
+thead > tr {
+  background-color: rgba(128, 128, 128, 0.565);
 }
